@@ -13,13 +13,13 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
     </noscript>
 
-    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css.map') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-icons/bootstrap-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/bootstrap.min.css.map') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/bootstrap-icons/bootstrap-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/main.css') }}">
 
 
     <noscript>
@@ -55,7 +55,7 @@
   <div class="cover bg-light">
     <div class="container px-3">
       <div class="row">
-        <div class="col-lg-6 p-2"><img class="img-fluid" src="{{ asset('images/illustrations/hello3.svg') }}" alt="hello"/></div>
+        <div class="col-lg-6 p-2"><img class="img-fluid" src="{{ asset('public/images/illustrations/hello3.svg') }}" alt="hello"/></div>
         <div class="col-lg-6">
           <div class="mt-5">
             <p class="lead text-uppercase mb-1">Hello!</p>
@@ -118,7 +118,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="images/DSC03909.JPG" width="400" height="400" alt="Rohit Kumar"/></div>
+      <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="public/images/DSC03909.JPG" width="400" height="400" alt="Rohit Kumar"/></div>
     </div>
   </div>
 </div>
@@ -131,16 +131,16 @@
       <p class="mx-auto mb-3" style="max-width:600px"> I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.</p>
     </div>
     <div class="row py-3">
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/services/web-design.svg" width="96" height="96" alt="web design"/>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="public/images/services/web-design.svg" width="96" height="96" alt="web design"/>
         <div class="h5">Web Design</div>
       </div>
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/services/graphic-design.svg" width="96" height="96" alt="graphic design"/>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="public/images/services/graphic-design.svg" width="96" height="96" alt="graphic design"/>
         <div class="h5">Graphic Design</div>
       </div>
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/services/ui-ux.svg" width="96" height="96" alt="ui-ux"/>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="public/images/services/ui-ux.svg" width="96" height="96" alt="ui-ux"/>
         <div class="h5">UI/UX</div>
       </div>
-      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/services/app-development.svg" width="96" height="96" alt="app development"/>
+      <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="public/images/services/app-development.svg" width="96" height="96" alt="app development"/>
         <div class="h5">App Development</div>
       </div>
     </div>
@@ -208,56 +208,56 @@
     <div class="grid bp-gallery pb-3" data-aos="zoom-in-up" data-aos-delay="100">
       <div class="grid-sizer"></div>
       <div class="grid-item"><a href="#">
-          <figure class="portfolio-item"><img src="images/portfolio/1-small.png" data-bp="images/portfolio/1.jpg" alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/1-small.png" data-bp="public/images/portfolio/1.jpg" alt="portfolio">
             <figcaption>
               <h4 class="h5 mb-0">Web Design</h4>
               <div>Dribbble.com</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://github.com">
-          <figure class="portfolio-item"><img src="images/portfolio/2-small.png" data-bp="images/portfolio/2.jpg" data-caption="Example of an optional caption." alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/2-small.png" data-bp="public/images/portfolio/2.jpg" data-caption="Example of an optional caption." alt="portfolio">
             <figcaption> 
               <h4 class="h5 mb-0">Web Development</h4>
               <div>GitHub.com</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://soundcloud.com/">
-          <figure class="portfolio-item"><img src="images/portfolio/3-small.png" data-bp="images/portfolio/3.jpg" data-caption="Example of an optional caption." alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/3-small.png" data-bp="public/images/portfolio/3.jpg" data-caption="Example of an optional caption." alt="portfolio">
             <figcaption> 
               <h4 class="h5 mb-0">Audio Mixing</h4>
               <div>Soundcloud.com</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://www.adobe.com/">
-          <figure class="portfolio-item"><img src="images/portfolio/4-small.png" data-bp="images/portfolio/4.jpg" alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/4-small.png" data-bp="public/images/portfolio/4.jpg" alt="portfolio">
             <figcaption>
               <h4 class="h5 mb-0">Video Editing</h4>
               <div>Adobe After Effects</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://www.adobe.com/">
-          <figure class="portfolio-item"><img src="images/portfolio/5-small.png" data-bp="images/portfolio/5.jpg" alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/5-small.png" data-bp="images/portfolio/5.jpg" alt="portfolio">
             <figcaption>
               <h4 class="h5 mb-0">Photography</h4>
               <div>Adobe Photoshop</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://www.android.com/">
-          <figure class="portfolio-item"><img src="images/portfolio/6-small.png" data-bp="images/portfolio/6.jpg" alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/6-small.png" data-bp="images/portfolio/6.jpg" alt="portfolio">
             <figcaption>
               <h4 class="h5 mb-0">App Development</h4>
               <div>Android</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://flutter.dev/">
-          <figure class="portfolio-item"><img src="images/portfolio/7-small.png" data-bp="images/portfolio/7.jpg" alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/7-small.png" data-bp="images/portfolio/7.jpg" alt="portfolio">
             <figcaption>
               <h4 class="h5 mb-0">App Design</h4>
               <div>Flutter</div>
             </figcaption>
           </figure></a></div>
       <div class="grid-item"><a href="https://flutter.dev/">
-          <figure class="portfolio-item"><img src="images/portfolio/8-small.png" data-bp="images/portfolio/8.jpg" alt="portfolio">
+          <figure class="portfolio-item"><img src="public/images/portfolio/8-small.png" data-bp="images/portfolio/8.jpg" alt="portfolio">
             <figcaption>
               <h4 class="h5 mb-0">App Development</h4>
               <div>Flutter</div>
@@ -279,7 +279,7 @@
               <div>
                 <h3 class="h5 mb-1">Web Design</h3>
                 <div class="text-muted text-small">Webbie LLC. <small>(2018-2024)</small></div>
-              </div><img src="images/services/web-design.svg" width="48" height="48" alt="web design"/>
+              </div><img src="public/images/services/web-design.svg" width="48" height="48" alt="web design"/>
             </div>
           </div>
           <div class="card-body px-3 py-2">
@@ -295,7 +295,7 @@
               <div>
                 <h3 class="h5 mb-1">Full Stack Development</h3>
                 <div class="text-muted text-small">Coder Inc. <small>(2020-2024)</small></div>
-              </div><img src="images/services/full-stack.svg" width="48" height="48" alt="full stack"/>
+              </div><img src="public/images/services/full-stack.svg" width="48" height="48" alt="full stack"/>
             </div>
           </div>
           <div class="card-body px-3 py-2">
@@ -319,7 +319,7 @@
           <div class="text-end me-2">
             <div class="fw-bolder">Ariya</div>
             <div class="text-small">Web Developer</div>
-          </div><img class="me-md-3 rounded" src="images/testimonials/client3.jpg" width="96" height="96" alt="client 1"/>
+          </div><img class="me-md-3 rounded" src="public/images/testimonials/client3.jpg" width="96" height="96" alt="client 1"/>
         </div>
       </div>
       <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="400">
@@ -328,7 +328,7 @@
           <div class="text-end me-2">
             <div class="fw-bolder">Braiden</div>
             <div class="text-small">Web Designer</div>
-          </div><img class="me-md-3 rounded" src="images/testimonials/client4.jpg" width="96" height="96" alt="client 1"/>
+          </div><img class="me-md-3 rounded" src="public/images/testimonials/client4.jpg" width="96" height="96" alt="client 1"/>
         </div>
       </div>
     </div>
@@ -416,17 +416,17 @@
     </div>
     <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
     
-    <script src="{{ asset('js/aos.min.js')}}"></script>
+    <script src="{{ asset('public/js/aos.min.js')}}"></script>
     <!-- <script src="{{ asset('js/app.js')}}"></script> -->
-    <script src="{{ asset('js/BigPicture.min.js')}}"></script>
-    <script src="{{ asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('public/js/BigPicture.min.js')}}"></script>
+    <script src="{{ asset('public/js/bootstrap.bundle.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js.map"></script>
     
     <!-- <script src="{{ asset('js/bootstrap.bundle.min.js.map')}}"></script> -->
     <!-- <script src="{{ asset('js/bootstrap.js')}}"></script> -->
-    <script src="{{ asset('js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{ asset('js/main.js')}}"></script>
-    <script src="{{ asset('js/masonry.pkgd.min.js')}}"></script>
-    <script src="{{ asset('js/purecounter.min.js')}}"></script>
+    <script src="{{ asset('public/js/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{ asset('public/js/main.js')}}"></script>
+    <script src="{{ asset('public/js/masonry.pkgd.min.js')}}"></script>
+    <script src="{{ asset('public/js/purecounter.min.js')}}"></script>
   </body>
 </html>
